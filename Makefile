@@ -8,6 +8,7 @@ build:
 dependencies:
 	npm install
 	node_modules/.bin/bower install
+	mkdir -p dist/js && mkdir -p dist/styles
 
 .PHONY: watch
 watch:
