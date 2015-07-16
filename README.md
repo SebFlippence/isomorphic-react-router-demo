@@ -23,6 +23,8 @@ You can install **npm** by downloading/installing **[Node.js](https://nodejs.org
 make dependencies build serve
 ```
 
+Demo should be running at: [http://localhost:3000](http://localhost:3000)
+
 ## Created with
 * [Express](http://expressjs.com/)
 * [Babel](https://babeljs.io/)
