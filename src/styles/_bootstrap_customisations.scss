@@ -1,0 +1,19 @@
+body {
+  color: #fff;
+  background-color: #14151A;
+  font-size: 14px;
+}
+
+.navbar-inverse.navbar {
+  margin-bottom: 0;
+}
+
+// React form radio button fix
+.form-horizontal .radio  {
+  label {
+    padding-left: 30px;
+  }
+  p, input {
+  margin: 0;
+  }
+}
