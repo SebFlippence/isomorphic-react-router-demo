@@ -2,7 +2,7 @@ Isomorphic React router demo
 ============================
 
 ## Introduction
-Built upon the isomorphic principal; rendering the same HTML server side and rendering pages client side to increase performance. It uses [React](https://facebook.github.io/react/) for templating with [Material Design for Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/) and [Sass](http://sass-lang.com/) for CSS styling.
+Built upon the isomorphic principal; rendering the same HTML server side and rendering pages client side to increase performance. It uses [React](https://facebook.github.io/react/) for templating with [Material Design for Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/).
 
 ## Prerequisites
 ### npm
@@ -20,16 +20,15 @@ You can install **npm** by downloading/installing **[Node.js](https://nodejs.org
 
 ## Running
 ```
-make dependencies build serve
+make
 ```
 
 Demo will be running at: [http://localhost:3000](http://localhost:3000)
 
 ## Created with
-* [Express](http://expressjs.com/)
+* [webpack](https://webpack.github.io/)
 * [Babel](https://babeljs.io/)
 * [babelify](https://github.com/babel/babelify)
 * [React](https://facebook.github.io/react/)
 * [React Router](https://rackt.github.io/react-router/)
-* [Sass](http://sass-lang.com/)
 * [Material Design for Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/)

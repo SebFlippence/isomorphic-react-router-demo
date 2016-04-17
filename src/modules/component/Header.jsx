@@ -1,24 +1,28 @@
-'use babel';
+'use strict';
 
 import React from 'react';
+import NavLink from './NavLink';
 
-import packageDetails from '../../../package.json';
-
-export default class Header extends React.Component {
+export default React.createClass({
   render () {
-      return <div className="navbar navbar-inverse">
+    return <header>
+      <div className="navbar navbar-inverse">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="javascript:void(0)">Brand</a>
+          <NavLink className="navbar-brand" to="/">Brand</NavLink>
         </div>
         <div className="navbar-collapse collapse navbar-inverse-collapse">
           <ul className="nav navbar-nav">
-            <li className="active"><a href="javascript:void(0)">Active</a></li>
-            <li><a href="javascript:void(0)">Link</a></li>
+            <li>
+              <NavLink to="/forms">Forms</NavLink>
+            </li>
+            <li>
+              <NavLink to="/tables">Tables</NavLink>
+            </li>
             <li className="dropdown">
               <a href="bootstrap-elements.html" data-target="#" className="dropdown-toggle" data-toggle="dropdown">Dropdown <b className="caret"></b></a>
               <ul className="dropdown-menu">
@@ -49,6 +53,7 @@ export default class Header extends React.Component {
             </li>
           </ul>
         </div>
-      </div>;
+      </div>
+    </header>;
   }
-};
+});

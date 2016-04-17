@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+  background-color: #14151A;
+  font-size: 14px;
+}
+
+.navbar-inverse.navbar {
+  margin-bottom: 0;
+}
+
+/* React form radio button fix */
+.form-horizontal .radio label {
+  padding-left: 30px;
+}
+
+.form-horizontal .radio p,
+.form-horizontal .radio p input {
+  margin: 0;
+}
+
+.main-container {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  color: #333;
+}
+
+.main-container .content {
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+footer {
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  color: #777;
+  font-size: 12px;
+  line-height: 50px;
+  overflow: hidden;
+  height: 50px;
+}
